@@ -1,0 +1,95 @@
+.navbar-brand
+  .c
+  {
+    font-family: Broadway;
+  }
+  .areer
+    {
+      font-family: Bradley Hand ITC;
+    }
+  .h
+  {
+    font-family: Showcard Gothic;
+  }
+  .ub
+    {
+      font-family: Bradley Hand ITC;
+    }
+button{
+    font-weight: bold;
+    box-shadow: 0 0 10px 0 white;
+  
+    background-color:black;
+    color:white;
+    border: 2px  ;
+    padding:10px 40px 10px 40px;
+    border-radius: 70px;
+    
+}
+.butns{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px 50px 285px;
+}
+
+.butns2{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 376px 60px 431px;
+    
+
+}
+
+
+.split {
+  height: 100%;
+ 
+  position: relative;
+  z-index: 1;
+  top:12%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  width:20%;
+  /* background-color: #111; */
+}
+
+.right {
+  padding-left:10px;
+  position: absolute;
+  right: 0;
+  width:80%;
+  /* background-image: url("paper.gif"); ; */
+}
+
+.courselist{
+  text-decoration:none;
+  font-size:15px;
+}
+.arts:hover{
+  text-decoration:underline;
+}
+.imgg{
+  background-image: url('./images/OIP.jpg');
+  object-fit:cover;
+  
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  
+}
+
+
+    /* .features{
+        height:50%;
+        width:50%;
+        background-color:yellow;
+      
+        
+    } */

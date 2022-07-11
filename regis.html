@@ -1,0 +1,151 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <!--<link href="regstyle.css" rel="stylesheet" type="text/css" />-->
+    <style type ="text/css">
+    body 
+{
+	margin :0;
+	padding :0;
+	background-image:url("./images/bg.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+    text-align: center;
+	
+	font-family:Sans-Serif;
+}
+
+.regbox
+{
+	position:absolute;
+	top :50%;
+	left :50%;
+	transform:translate(-50%,-50%);
+	width :350px;
+	height :500px;
+	padding :80px 40px;
+	background:rgba(0,0,0,0.5);
+}
+h2
+{
+	padding:0;
+	margin :0;
+	text-align :center ;
+	color :White;
+}
+
+.regbtn
+{
+	border :none;
+	outline :none;
+	height :35px;
+	font-size :16px;
+	width :40%;
+	color :#fff;
+	background-color:rgb(150,217,9);
+	cursor:pointer ;
+	border-radius:20px;
+	transition: .3s ease-in-out;
+	margin-bottom :20px;
+	
+}	
+.regbtn:hover
+{
+	background-color:Transparent ;
+}
+</style>
+</head>
+<body>
+    <div class ="regbox">
+    <br>
+    <br>
+    <h2>Registration Page</h2>
+    <br>
+       
+    <form id="form1" runat ="server" >
+        <table style="width: 438px" cellspacing="10">
+        <tr >
+                <td style="width: 100px; text-align: center">
+                    <span style="color: #ffffff">
+                    Name:</span></td>
+                <td> <input type="text" id="fname" name="fname"></td>
+               
+            </tr>
+            <tr>
+                <td style="width: 100px; text-align: center;">
+                    <span style="color: #ffffff">
+                    Address:</span></td>
+               <td> <input type="text" id="fname" name="fname"></td>
+            </tr>
+            <tr>
+                <td style="width: 100px; text-align: center;">
+                   
+            </tr>
+            <tr>
+                <td style="width: 100px; text-align: center;">
+                    <span style="color: #ffffff">
+                    Contact no:</span></td>
+                    </td>
+
+                    <td> <input type="text" id="fname" name="fname"></td>
+                </tr>
+            </td>
+            <tr>
+                <td style="width: 100px; text-align: center;">
+                    <span style="color: #ffffff">Username:</span></td>
+           
+                    <td> <input type="text" id="fname" name="fname"></td>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                    <span style="color: #ffffff">Password:</span></td>
+                <td> <input type="text" id="fname" name="fname"></td>
+            </tr>
+            <tr>
+                <td style="width: 100px; text-align: center;">
+                    <span style="color: #ffffff">
+                    Confirm Password:</span></td>
+                    <td> <input type="text" id="fname" name="fname"></td>
+            </tr>
+            <tr>
+                <td style="width: 100px; text-align: center">
+                    <span style="color: #ffffff">
+                    Security Question :</span></td>
+                <td style="width: 107px">
+                    <span style="color: #ffffff">
+                    What is your blood group?</span></td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px; text-align: center">
+                    <span style="color: #ffffff">
+                    Answer:</span></td>
+                <td><select name="cars" id="cars">
+                    <option value="volvo">A+</option>
+                    <option value="saab">B+</option>
+                    <option value="opel">AB+</option>
+                    <option value="audi">O+</option>
+                    <option value="volvo">A-</option>
+                    <option value="saab">B-</option>
+                    <option value="opel">AB-</option>
+                    <option value="audi">O-</option>
+                  </select></td>
+            </tr>
+          
+            
+        </table>
+        <br>
+        
+        <tr >
+
+            <input type="submit" value="Submit">
+        </tr>
+ 
+    
+    </form>
+    </div>
+    
+</body>
+</html>
+
