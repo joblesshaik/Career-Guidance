@@ -1,7 +1,14 @@
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title>Untitled Page</title>
-    <!--<link href="regstyle.css" rel="stylesheet" type="text/css" />-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- CSS only -->
+
+  <link rel="stylesheet" href="style.css">
+  <title>CareerHub</title>
     <style type ="text/css">
     body 
 {
@@ -11,19 +18,18 @@
 	background-repeat:no-repeat;
 	background-size:cover;
     text-align: center;
-	
 	font-family:Sans-Serif;
 }
 
 .regbox
 {
 	position:absolute;
-	top :50%;
+	top :52%;
 	left :50%;
 	transform:translate(-50%,-50%);
-	width :350px;
-	height :500px;
-	padding :80px 40px;
+	width :550px;
+	height :620px;
+	padding :0px 40px;
 	background:rgba(0,0,0,0.5);
 }
 h2
@@ -55,7 +61,39 @@ h2
 }
 </style>
 </head>
-<body>
+
+    <!--nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="navbar-brand" style="font-size: 30px;">
+        <span class="c" >C</span>   
+        <span class="areer" >areer</span>
+        <span class="h" >H</span>
+        <span class="ub">ub</span>
+      </div>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto" >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="regis.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body>
     <div class ="regbox">
     <br>
     <br>
@@ -63,7 +101,7 @@ h2
     <br>
        
     <form id="form1" runat ="server" >
-        <table style="width: 438px" cellspacing="10">
+        <table style="width: 438px" cellspacing="20" cellpadding="7">
         <tr >
                 <td style="width: 100px; text-align: center">
                     <span style="color: #ffffff">
@@ -136,10 +174,10 @@ h2
             
         </table>
         <br>
-        
+        <br>
         <tr >
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="regbtn">
         </tr>
  
     
@@ -148,4 +186,6 @@ h2
     
 </body>
 </html>
+
+
 
